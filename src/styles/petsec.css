@@ -1,0 +1,26 @@
+ .pet-img{
+     width:150px;
+     height:200px;
+     margin-left:9.75em;
+
+ }
+ .pet-sec{
+
+     padding-top:200px;
+     background: linear-gradient(to top, #000, #0f0);
+
+ }
+ .pet_content{
+     line-height:30px;
+     font-weight:300;
+ }
+ .pet-title{
+     color:#000;
+     text-align: center;
+     padding-top:1.75em;
+     font-size:2.5em;
+     padding-left:1.5em;
+     font-weight:500;
+     font-family: 'Rubik', sans-serif;
+     letter-spacing:2px; 
+ }
