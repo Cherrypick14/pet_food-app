@@ -1,0 +1,90 @@
+.header{
+    width:100%;
+    height:150px;
+    /* line-height: 70px; */
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:11111;
+    padding:0px 0px;
+}
+.navigation{
+    background-color:#414073;
+    height:100px; 
+    width:100%;
+    padding:0px 0px;
+    display: flex;
+
+}
+.formIcon{
+    color:#fff;
+}
+/* .formheaderP{
+    width:60% !important;
+    background:transparent !important;
+} */
+
+.logo>h5{
+    font-size:2.5rem;
+    color:#DCA5F0;
+    flex:3;
+    padding-top:.5em;
+    padding-left:2em;
+}
+.logotitle{
+    color:#fff;
+}
+.nav-center{
+    flex:6;
+}
+.nav-right{
+    flex:3;
+    padding-top:5px;
+
+}
+.nav-right-link-items{
+    display: inline-block;
+    padding-top:1.5em; 
+    /* font-size:.5rem; */
+    color:#fff;
+}
+.nav-right-link-items>i{
+    font-size:1.5rem;
+    padding-right: .5em;
+    
+}
+.nav-right-link-items>span{
+    padding-left:.5rem;
+    font-size:1.0em;
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+    column-gap: 2.5rem;
+}
+.nav_list_item>a{
+    color:#fff;
+    transition: .3s;
+    text-decoration: none;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+.nav_list_item>a:hover{
+    color:#DCA5F0;
+}
+.mobile_menu>i{
+    color:#fff;
+    font-size:1.3rem;
+    cursor:pointer;
+}
+.mobile_menu{
+    display: none;
+}
+.main-menu{
+    background:#6362A7;
+    height:50px;  
+    width:100%;
+    padding:0px 0px;
+}
+
